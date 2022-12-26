@@ -11,7 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID',"3369707"))
     API_HASH = str(getenv('API_HASH',"aec1fd7abdfec322c426961a570ef336"))
-    BOT_TOKEN = str(getenv('BOT_TOKEN',"5460906870:AAE9XnUcymk5C4g6AKfi69DBKVS2G4rzy8E"))
+    BOT_TOKEN = str(getenv('BOT_TOKEN',"5460906870:AAETG89iRYZ8nc3P4Lm69vnLAz2N--NpzaM"))
     name = str(getenv('name', "Filestreambot-pro"))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', "60"))
     WORKERS = int(getenv('WORKERS', "4"))
